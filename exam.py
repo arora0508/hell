@@ -1,21 +1,18 @@
 
-from sub import *
-from add import *
-from mult import *
-from div import *
+from subtarction import *
+from addition import *
+from multiply import *
+from divide import *
 a=int(input ("Enter the number"))
 b=int(input ("Enter the number"))
-print(modFunc(a,b))
-print(subFunc(a,b))
-print(addFunc(a,b)) 
 choice = int(input("ENTER A CHOICE \n 1. Addition \n 2. Subtration \n 3. Division \n 4 Multiplication \n 5. Modulous"))
 if choice == 1:
-    print(addFunc(a,b))
+    print(addition())
 elif choice == 2:
-    print(subFunc(a,b))
+    print(subtarction())
 elif choice == 3:
-    print(divFunc(a,b))
+    print(division())
 elif choice == 4:
-    print(multFunc(a,b))
+    print(multiply())
 else:
     print("OOPSss!!! something is wrong here...")
