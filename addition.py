@@ -1,5 +1,5 @@
 def addition ():
- a=input("enter a no.")
- b=input("enter another no.")
- c=a+b
- return(c)
+    a=input("enter a number")
+    b=input("enter a number")
+    c=a+b
+    return(c)
